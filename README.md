@@ -7,3 +7,4 @@ Refer these links to get a more detailed understanding of the project
 4. https://youtu.be/3QiPPX-KeSc?si=6fqqXwk1Kr_5e4Us
 5. https://youtu.be/pd-0G0MigUA?si=nBWY9xnAvh0Nn-Xu
 6. https://docs.python.org/3/library/socket.html
+All the codes are available in the Codes branch
