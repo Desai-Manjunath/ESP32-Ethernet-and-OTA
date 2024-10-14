@@ -142,9 +142,15 @@ void setup(void) {
       } else {
         Update.printError(Serial); // Print error if the update fails to end
       }
+    } else {  // Handle any unexpected status
+      Update.printError(Serial);
     }
   });
   
   // Start the server
   server.begin();
+}
+
+void loop(void) {
+  server.handleClient(); // Handle client requests
 }
